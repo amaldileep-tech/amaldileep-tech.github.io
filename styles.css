@@ -20,8 +20,8 @@ nav a{opacity:.75}nav a:hover{opacity:1;color:var(--gold)}
   background:#050505;z-index:1;
 }
 .left-shade{position:absolute;z-index:2;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.78) 0%,rgba(0,0,0,.48) 26%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.02) 70%,rgba(0,0,0,.22) 100%);pointer-events:none}
-.vignette{position:absolute;z-index:2;inset:0;background:radial-gradient(circle at 50% 48%,transparent 38%,rgba(0,0,0,.18) 68%,rgba(0,0,0,.62) 100%);pointer-events:none}
-.noise{position:absolute;z-index:3;inset:0;pointer-events:none;opacity:.08;mix-blend-mode:soft-light;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.4'/%3E%3C/svg%3E")}
+.vignette{display:none!important;}
+.noise{display:none!important;}
 .copy{position:absolute;z-index:6;left:max(22px,5vw);top:50%;transform:translateY(-50%);width:min(590px,43vw);will-change:opacity,transform}
 .copy span.eyebrow,.section-title>span,.contact>span,.ticker-section>span{display:block;color:var(--gold);font-size:9px;letter-spacing:.22em;font-weight:800;margin-bottom:15px}
 .copy h1,.copy h2,.section-title h2,.contact h2{margin:0;text-transform:uppercase;font-weight:320;line-height:.93;letter-spacing:-.035em}
@@ -554,4 +554,57 @@ footer{margin-top:90px!important;padding-top:18px;border-top:1px solid var(--lin
 }
 @media(prefers-reduced-motion:reduce){
   .amal-ai-pulse,.amal-ai-eq i,.amal-ai-live-dot{animation:none}
+}
+
+
+/* ===== V14 Maximum Video Display Quality ===== */
+#walkVideo{
+  filter:none !important;
+  opacity:1 !important;
+  image-rendering:auto;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+  transform:translateZ(0);
+  -webkit-transform:translateZ(0);
+  will-change:transform;
+}
+
+/* Keep cinematic text readable without laying grain/blur over the video */
+.walk-media::after,
+.walk-media::before{
+  pointer-events:none;
+}
+
+/* Desktop: native landscape framing */
+@media (min-width:781px){
+  #walkVideo{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center center;
+  }
+}
+
+/* Mobile: keep the face/upper body centered and avoid extra CSS scaling */
+@media (max-width:780px){
+  #walkVideo{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:50% 50%;
+  }
+}
+
+/* Disable artificial film grain / heavy overlays */
+.noise,
+.vignette{
+  display:none !important;
+  opacity:0 !important;
+  background:none !important;
+}
+
+#walk .sticky,
+#walk .walk-media,
+#walk .walk-stage{
+  filter:none !important;
 }
