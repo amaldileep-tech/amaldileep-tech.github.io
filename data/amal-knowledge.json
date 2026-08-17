@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "assistant_name": "Amal AI",
+    "version": "11.0",
+    "scope": "Professional portfolio information about Amal Dileep only",
+    "privacy": "Public-safe professional information only"
+  },
+  "profile": {
+    "name": "Amal Dileep",
+    "headline": "Lead System Engineer | Networking | IT Infrastructure | ELV | Linux",
+    "location": "United Arab Emirates",
+    "experience": "4+ years",
+    "summary": "Amal Dileep is a Lead System Engineer in the UAE with hands-on experience across networking, IT infrastructure, ELV, CCTV, AV systems, Linux, Docker, self-hosted services, technical presales, project delivery, testing, commissioning and troubleshooting.",
+    "focus": [
+      "Networking and IT infrastructure",
+      "Linux and containerized services",
+      "CCTV, ANPR and ELV systems",
+      "AV and digital display solutions",
+      "Automation and self-hosted AI projects",
+      "Technical presales and project delivery"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Lead System Engineer",
+      "company": "Spectra IT Infrastructure LLC",
+      "location": "Dubai, UAE",
+      "period": "2024 – Present",
+      "highlights": [
+        "Networking, IT infrastructure, ELV, AV and CCTV solution delivery",
+        "Technical presales, BOQ preparation and solution costing",
+        "Site coordination, implementation, testing and commissioning",
+        "Infrastructure troubleshooting and project documentation",
+        "Enterprise networking and security-system integration"
+      ]
+    },
+    {
+      "role": "Electronic Engineer",
+      "company": "SP Corporation Car Parking Management LLC",
+      "location": "Dubai, UAE",
+      "period": "2023 – 2024",
+      "highlights": [
+        "Parking-system and electronic-system support",
+        "ANPR, CCTV and kiosk troubleshooting",
+        "Installation, integration, testing and commissioning",
+        "Technical coordination and maintenance support"
+      ]
+    },
+    {
+      "role": "Electronics Engineer",
+      "company": "KTC International LLC",
+      "location": "Dubai, UAE",
+      "period": "2021 – 2023",
+      "highlights": [
+        "Electronics and field-system installation support",
+        "Troubleshooting and preventive maintenance",
+        "Testing, commissioning and technical coordination"
+      ]
+    }
+  ],
+  "skills": {
+    "Networking": [
+      "Huawei switching",
+      "FortiGate firewalls",
+      "UniFi networking",
+      "VLAN design and implementation",
+      "Routing and switching",
+      "Enterprise Wi-Fi",
+      "Network troubleshooting",
+      "Structured cabling and infrastructure"
+    ],
+    "Linux & Infrastructure": [
+      "Linux administration",
+      "Red Hat fundamentals",
+      "Docker",
+      "Docker Compose",
+      "Raspberry Pi",
+      "Self-hosted services",
+      "NAS and storage",
+      "Tailscale",
+      "systemd",
+      "Basic Bash"
+    ],
+    "ELV & Security": [
+      "CCTV",
+      "ANPR",
+      "VMS",
+      "IP cameras",
+      "NVR systems",
+      "Video surveillance infrastructure",
+      "Testing and commissioning",
+      "ELV project coordination"
+    ],
+    "AV & Digital": [
+      "Digital signage",
+      "Interactive displays",
+      "Video wall solution support",
+      "AV infrastructure coordination",
+      "Display installation and commissioning"
+    ],
+    "Automation & AI": [
+      "n8n",
+      "Telegram automation",
+      "Webhooks",
+      "Xiaozhi MCP integration",
+      "Self-hosted AI assistant projects",
+      "TTS integration",
+      "3D avatar / VRM experimentation"
+    ],
+    "Project & Presales": [
+      "BOQ preparation",
+      "Technical proposals",
+      "Cost sheets",
+      "Scope of work preparation",
+      "Method statements",
+      "Site coordination",
+      "Project documentation",
+      "Testing and commissioning",
+      "Client handover support"
+    ],
+    "Development & Tools": [
+      "Git",
+      "GitHub",
+      "Python basics",
+      "C++ basics",
+      "HTML/CSS/JavaScript",
+      "REST APIs",
+      "Dockerized web services"
+    ]
+  },
+  "learning": [
+    {
+      "name": "Red Hat / RHCSA",
+      "status": "RHCSA training completed; certification preparation is in progress."
+    },
+    {
+      "name": "DevOps",
+      "status": "Actively developing DevOps skills around Linux, Docker, Git, automation and CI/CD concepts."
+    },
+    {
+      "name": "Huawei Datacom",
+      "status": "Developing Huawei enterprise-networking knowledge and certification skills."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise CCTV / VMS Upgrade",
+      "category": "ELV / Security",
+      "summary": "Worked on enterprise CCTV and VMS upgrade solution design involving IP cameras, VMS licensing, servers, storage, core/access switching and long-retention recording requirements.",
+      "technologies": [
+        "IP CCTV",
+        "VMS",
+        "Huawei switching",
+        "enterprise storage",
+        "servers"
+      ]
+    },
+    {
+      "name": "Large Warehouse Wi-Fi Deployment",
+      "category": "Networking",
+      "summary": "Worked on Wi-Fi design and implementation for a large warehouse and office environment, including access-point planning, switching, firewall integration, VLANs and controller-based management.",
+      "technologies": [
+        "Huawei AirEngine",
+        "FortiGate",
+        "VLANs",
+        "Wi-Fi",
+        "switching"
+      ]
+    },
+    {
+      "name": "ANPR Camera Integration",
+      "category": "ELV / Security",
+      "summary": "Installed and configured ANPR cameras, integrated loop inputs, validated event triggering and completed system testing and documentation.",
+      "technologies": [
+        "ANPR",
+        "IP cameras",
+        "NVR/VMS",
+        "loop integration"
+      ]
+    },
+    {
+      "name": "Workshop Vehicle Tracking Concept",
+      "category": "IoT / Automation",
+      "summary": "Designed a BLE-based workshop vehicle tracking workflow covering reception, inspection, service, quality control, washing, ready and pickup stages with notification concepts.",
+      "technologies": [
+        "BLE",
+        "workflow automation",
+        "notifications",
+        "IoT"
+      ]
+    },
+    {
+      "name": "Xiaozhi + n8n AI Assistant",
+      "category": "AI / Automation / Home Lab",
+      "summary": "Built a self-hosted voice-assistant and automation lab on Raspberry Pi using Xiaozhi, n8n, an MCP bridge, Dockerized services, systemd, Telegram automation and webhooks.",
+      "technologies": [
+        "Raspberry Pi",
+        "Docker",
+        "n8n",
+        "MCP",
+        "Telegram",
+        "webhooks",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Aryvik 3D TTS Avatar",
+      "category": "AI / 3D / TTS",
+      "summary": "Built a self-hosted 3D speaking-avatar prototype using a VRM renderer, TTS, browser-based speech input, WebSockets and facial blendshape animation.",
+      "technologies": [
+        "VRM",
+        "Three.js",
+        "TTS",
+        "WebSocket",
+        "Docker",
+        "Vite"
+      ]
+    },
+    {
+      "name": "AMVERSE Watch NFC Lab",
+      "category": "Embedded / NFC",
+      "summary": "Experimented with NFC detection and controlled-lab tag workflows on an ESP32-S3 wearable platform using C++ and embedded development tooling.",
+      "technologies": [
+        "ESP32-S3",
+        "C++",
+        "NFC",
+        "embedded systems"
+      ]
+    },
+    {
+      "name": "Raspberry Pi Home Lab / NAS",
+      "category": "Linux / Infrastructure",
+      "summary": "Runs a Raspberry Pi-based home lab with Docker services, storage, backups, remote access, media/photo services, automation tools and AI experiments.",
+      "technologies": [
+        "Raspberry Pi 5",
+        "Linux",
+        "Docker",
+        "NAS",
+        "Tailscale",
+        "self-hosting"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "amaldileepofficial@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/amal-d-57421a130",
+    "github": "https://github.com/amaldileep-tech"
+  },
+  "suggested_questions": [
+    "Tell me about Amal",
+    "Show Amal’s experience",
+    "What are Amal’s networking skills?",
+    "What projects has Amal built?",
+    "Tell me about Linux & Docker",
+    "What AI work has Amal done?",
+    "What certifications is Amal working on?",
+    "How can I contact Amal?"
+  ],
+  "out_of_scope": "I’m Amal AI, a portfolio assistant. I can only answer questions about Amal Dileep’s professional experience, skills, projects, learning and contact information."
+}
