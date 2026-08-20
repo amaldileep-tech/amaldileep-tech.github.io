@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aryvik | Amal Dileep</title>
+<meta name="description" content="Aryvik AI voice assistant and 3D VRM avatar project by Amal Dileep.">
+<meta name="theme-color" content="#05080a">
+<link rel="stylesheet" href="../styles.css">
+<style>
+.ary-page{background:#05080a;color:#ecf6f9;min-height:100vh}
+.ary-back{position:fixed;left:18px;top:18px;z-index:30;padding:10px 14px;border:1px solid rgba(47,214,234,.22);border-radius:999px;background:rgba(5,8,10,.8);backdrop-filter:blur(12px);font-size:9px;letter-spacing:.09em}
+.ary-hero{min-height:85vh;display:grid;place-items:center;text-align:center;padding:100px 20px 70px;position:relative;overflow:hidden}
+.ary-hero::before{content:"";position:absolute;width:min(65vw,620px);height:min(65vw,620px);border:1px solid rgba(47,214,234,.14);border-radius:50%;box-shadow:0 0 100px rgba(47,214,234,.05)}
+.ary-hero>div{position:relative;max-width:900px}.ary-hero h1{font-size:clamp(90px,21vw,250px);line-height:.72;letter-spacing:-.08em;margin:32px 0;color:transparent;-webkit-text-stroke:1px rgba(72,229,246,.72)}
+.ary-hero p{color:#8ca1aa;max-width:760px;margin:0 auto}.ary-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:26px}.ary-tags span{font-size:8px;padding:6px 8px;border:1px solid rgba(255,255,255,.065);border-radius:999px;color:#8fa5ad}
+.ary-flow{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.ary-flow div{border:1px solid rgba(182,228,238,.1);padding:18px;border-radius:13px;background:#081116;font-size:10px;color:#9cafb6;position:relative}.ary-flow small{display:block;margin-top:6px;color:#536c76}.ary-flow div:not(:last-child)::after{content:"→";position:absolute;right:-9px;top:50%;color:#2fd6ea}
+@media(max-width:780px){.ary-flow{grid-template-columns:1fr}.ary-flow div:not(:last-child)::after{content:"↓";right:18px;top:auto;bottom:-12px}}
+</style>
+</head>
+<body class="ary-page">
+<a class="ary-back" href="../index.html#projects">← Back to Portfolio</a>
+<section class="ary-hero"><div><span class="v17-kicker">Featured Personal R&D Project</span><h1>ARYVIK</h1><p>Personal AI assistant experiment combining browser voice interaction, neural text-to-speech and a real-time animated VRM avatar on self-hosted infrastructure.</p><div class="ary-tags"><span>Raspberry Pi 5</span><span>Linux</span><span>Docker</span><span>Python</span><span>FastAPI / Uvicorn</span><span>Three.js</span><span>VRM</span><span>Azure TTS</span><span>WebSockets</span><span>Blendshapes</span><span>Web Speech API</span><span>Tailscale</span></div></div></section>
+<section class="v17-section"><div class="v17-heading"><span class="v17-kicker">Architecture</span><h2>Voice → Intelligence → Motion</h2><p>A browser-facing avatar system built around self-hosted services and real-time event flow.</p></div>
+<div class="ary-flow"><div>Speech Input<small>Web Speech API</small></div><div>Assistant Layer<small>API / workflow</small></div><div>TTS Service<small>Neural voice</small></div><div>WebSocket Events<small>Timing + blendshapes</small></div><div>VRM Renderer<small>Three.js avatar</small></div></div></section>
+<section class="v17-section v17-dual"><article class="v17-panel"><span class="v17-kicker">Challenge</span><h2>Synchronize multiple real-time layers.</h2><p>Synchronize speech, browser interaction and 3D facial animation on lightweight self-hosted hardware.</p></article><article class="v17-panel"><span class="v17-kicker">Solution</span><h2>Self-hosted modular services.</h2><p>Built a Dockerized TTS/API service and a Three.js/VRM renderer connected by WebSockets and speech events.</p></article></section>
+<section class="v17-section"><div class="v17-heading"><span class="v17-kicker">Outcome</span><h2>A working interactive prototype.</h2><p>Working prototype with voice input, neural speech output, avatar mouth movement, facial expressions and remote access.</p></div></section>
+</body></html>

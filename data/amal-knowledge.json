@@ -1,24 +1,26 @@
 {
   "meta": {
+    "version": "17.0",
     "assistant_name": "Amal AI",
-    "version": "11.0",
-    "scope": "Professional portfolio information about Amal Dileep only",
-    "privacy": "Public-safe professional information only"
+    "scope": "Approved public professional portfolio information only"
   },
   "profile": {
     "name": "Amal Dileep",
-    "headline": "Lead System Engineer | Networking | IT Infrastructure | ELV | Linux",
+    "headline": "Lead System Engineer | Network • Infrastructure • ELV • AI Automation",
     "location": "United Arab Emirates",
-    "experience": "4+ years",
-    "summary": "Amal Dileep is a Lead System Engineer in the UAE with hands-on experience across networking, IT infrastructure, ELV, CCTV, AV systems, Linux, Docker, self-hosted services, technical presales, project delivery, testing, commissioning and troubleshooting.",
+    "experience_years": "4+ years",
+    "summary": "Amal Dileep is a UAE-based Lead System Engineer working across networking, IT infrastructure, ELV, AV, CCTV, data center systems and emerging automation technologies.",
     "focus": [
-      "Networking and IT infrastructure",
-      "Linux and containerized services",
-      "CCTV, ANPR and ELV systems",
-      "AV and digital display solutions",
-      "Automation and self-hosted AI projects",
-      "Technical presales and project delivery"
-    ]
+      "Enterprise networking",
+      "Wireless infrastructure",
+      "Data center and infrastructure",
+      "CCTV and ELV",
+      "Linux and Docker",
+      "Automation and AI",
+      "Presales and project delivery"
+    ],
+    "statement": "I design, implement, troubleshoot and deliver complete technology infrastructure solutions — from presales and architecture to site implementation and project completion.",
+    "engagements": "100+ sites and technical engagements"
   },
   "experience": [
     {
@@ -28,10 +30,8 @@
       "period": "2024 – Present",
       "highlights": [
         "Networking, IT infrastructure, ELV, AV and CCTV solution delivery",
-        "Technical presales, BOQ preparation and solution costing",
-        "Site coordination, implementation, testing and commissioning",
-        "Infrastructure troubleshooting and project documentation",
-        "Enterprise networking and security-system integration"
+        "Technical presales, BOQ preparation, costing and technical proposals",
+        "Site coordination, implementation, troubleshooting, testing, commissioning and handover"
       ]
     },
     {
@@ -40,10 +40,8 @@
       "location": "Dubai, UAE",
       "period": "2023 – 2024",
       "highlights": [
-        "Parking-system and electronic-system support",
-        "ANPR, CCTV and kiosk troubleshooting",
-        "Installation, integration, testing and commissioning",
-        "Technical coordination and maintenance support"
+        "Parking systems, ANPR, CCTV, kiosks and field-system troubleshooting",
+        "Installation, integration, testing, commissioning and technical coordination"
       ]
     },
     {
@@ -53,79 +51,94 @@
       "period": "2021 – 2023",
       "highlights": [
         "Electronics and field-system installation support",
-        "Troubleshooting and preventive maintenance",
-        "Testing, commissioning and technical coordination"
+        "Troubleshooting, maintenance, testing, commissioning and technical site support"
       ]
     }
   ],
   "skills": {
-    "Networking": [
-      "Huawei switching",
-      "FortiGate firewalls",
-      "UniFi networking",
-      "VLAN design and implementation",
-      "Routing and switching",
-      "Enterprise Wi-Fi",
-      "Network troubleshooting",
-      "Structured cabling and infrastructure"
+    "Enterprise Networking": [
+      "Huawei Switching",
+      "Aruba Networking",
+      "Fortinet / FortiGate",
+      "VLAN Architecture",
+      "Routing & Switching",
+      "Network Troubleshooting",
+      "Network Migration",
+      "Core & Access Design",
+      "High Availability",
+      "Enterprise LAN"
     ],
-    "Linux & Infrastructure": [
-      "Linux administration",
-      "Red Hat fundamentals",
+    "Wireless Infrastructure": [
+      "Huawei AirEngine",
+      "Aruba",
+      "Ruckus",
+      "Enterprise Wi-Fi",
+      "Wireless Controller Configuration",
+      "RF / Coverage Planning",
+      "High-Density Wi-Fi",
+      "Guest & Corporate WLAN",
+      "AP Deployment"
+    ],
+    "Data Center & Infrastructure": [
+      "Server Infrastructure",
+      "Storage Systems",
+      "Network Racks",
+      "UPS",
+      "Structured Cabling",
+      "Fiber Infrastructure",
+      "Data Center Networking",
+      "Equipment Migration",
+      "Rack & Power Planning"
+    ],
+    "CCTV & ELV": [
+      "IP CCTV",
+      "ANPR",
+      "NVR",
+      "VMS",
+      "Digifort",
+      "Dahua",
+      "Hikvision",
+      "CCTV Storage Design",
+      "Camera Infrastructure",
+      "ELV Integration"
+    ],
+    "Systems & Linux": [
+      "Linux",
+      "Red Hat",
       "Docker",
       "Docker Compose",
-      "Raspberry Pi",
-      "Self-hosted services",
-      "NAS and storage",
-      "Tailscale",
-      "systemd",
-      "Basic Bash"
-    ],
-    "ELV & Security": [
-      "CCTV",
-      "ANPR",
-      "VMS",
-      "IP cameras",
-      "NVR systems",
-      "Video surveillance infrastructure",
-      "Testing and commissioning",
-      "ELV project coordination"
-    ],
-    "AV & Digital": [
-      "Digital signage",
-      "Interactive displays",
-      "Video wall solution support",
-      "AV infrastructure coordination",
-      "Display installation and commissioning"
+      "Systemd",
+      "Networking Services",
+      "Reverse Proxy",
+      "Service Troubleshooting",
+      "Raspberry Pi"
     ],
     "Automation & AI": [
       "n8n",
-      "Telegram automation",
-      "Webhooks",
-      "Xiaozhi MCP integration",
-      "Self-hosted AI assistant projects",
-      "TTS integration",
-      "3D avatar / VRM experimentation"
+      "AI Workflow Automation",
+      "Telegram Bots",
+      "AI Assistants",
+      "Voice Interfaces",
+      "Text-to-Speech",
+      "WebSockets",
+      "API Integration",
+      "Local AI Experiments"
     ],
     "Project & Presales": [
+      "Customer requirement analysis",
+      "Site surveys",
+      "Solution architecture",
       "BOQ preparation",
+      "Cost estimation",
+      "OEM coordination",
+      "Distributor coordination",
       "Technical proposals",
-      "Cost sheets",
-      "Scope of work preparation",
-      "Method statements",
-      "Site coordination",
-      "Project documentation",
-      "Testing and commissioning",
-      "Client handover support"
-    ],
-    "Development & Tools": [
-      "Git",
-      "GitHub",
-      "Python basics",
-      "C++ basics",
-      "HTML/CSS/JavaScript",
-      "REST APIs",
-      "Dockerized web services"
+      "Tender support",
+      "Scope definition",
+      "SLA preparation",
+      "Project methodology",
+      "Technical presentations",
+      "Testing and handover"
     ]
   },
   "learning": [
@@ -134,111 +147,343 @@
       "status": "RHCSA training completed; certification preparation is in progress."
     },
     {
-      "name": "DevOps",
-      "status": "Actively developing DevOps skills around Linux, Docker, Git, automation and CI/CD concepts."
+      "name": "Networking",
+      "status": "Continuing networking certification development and Huawei networking learning."
     },
     {
-      "name": "Huawei Datacom",
-      "status": "Developing Huawei enterprise-networking knowledge and certification skills."
+      "name": "DevOps",
+      "status": "Actively developing Linux, Docker, Git, automation and CI/CD skills."
+    },
+    {
+      "name": "AI Infrastructure",
+      "status": "Hands-on experimentation with self-hosted AI, TTS, automation and 3D avatar systems."
     }
   ],
   "projects": [
     {
-      "name": "Enterprise CCTV / VMS Upgrade",
-      "category": "ELV / Security",
-      "summary": "Worked on enterprise CCTV and VMS upgrade solution design involving IP cameras, VMS licensing, servers, storage, core/access switching and long-retention recording requirements.",
+      "id": "bank-cctv",
+      "name": "Enterprise Bank CCTV Infrastructure Upgrade",
+      "category": "CCTV • Networking • Storage • Data Center",
+      "summary": "Enterprise surveillance modernization design involving approximately 54 IP cameras, centralized video management, failover architecture and long-term storage planning.",
       "technologies": [
-        "IP CCTV",
-        "VMS",
-        "Huawei switching",
-        "enterprise storage",
-        "servers"
-      ]
+        "Digifort VMS",
+        "Dahua IP Cameras",
+        "Huawei Networking",
+        "Huawei OceanStor",
+        "Huawei Servers",
+        "Core & Access Switching",
+        "HA / Failover",
+        "~180-day retention"
+      ],
+      "role": [
+        "Solution architecture",
+        "Presales engineering",
+        "BOQ preparation",
+        "Camera and storage planning",
+        "Network architecture",
+        "Server planning",
+        "Vendor coordination",
+        "Technical documentation"
+      ],
+      "challenge": "Build a resilient centralized surveillance architecture that balances camera count, video management, server failover and long-retention storage.",
+      "solution": "Developed an end-to-end design covering camera, network, VMS, server and storage layers with high-availability and retention considerations.",
+      "outcome": "Produced an enterprise solution-design and BOQ framework for a resilient centralized surveillance platform.",
+      "status": "Solution Design"
     },
     {
-      "name": "Large Warehouse Wi-Fi Deployment",
-      "category": "Networking",
-      "summary": "Worked on Wi-Fi design and implementation for a large warehouse and office environment, including access-point planning, switching, firewall integration, VLANs and controller-based management.",
+      "id": "warehouse-wifi",
+      "name": "Large Warehouse Enterprise Wi-Fi Deployment",
+      "category": "Enterprise Wi-Fi • Networking",
+      "summary": "Designed and supported a high-density wireless solution for a large warehouse and office environment with challenging rack geometry and RF conditions.",
       "technologies": [
         "Huawei AirEngine",
+        "iMaster NCE / CloudCampus",
         "FortiGate",
-        "VLANs",
-        "Wi-Fi",
-        "switching"
-      ]
+        "Enterprise VLANs",
+        "High-Density Wi-Fi"
+      ],
+      "role": [
+        "Wireless planning",
+        "AP model selection",
+        "Network architecture",
+        "VLAN planning",
+        "Switch planning",
+        "Firewall integration",
+        "Deployment support",
+        "Optimization and troubleshooting"
+      ],
+      "challenge": "Deliver reliable wireless coverage in an approximately 90 m × 93 m × 13 m warehouse with racks reaching roughly 12 m.",
+      "solution": "Planned AP placement and models across warehouse, office and outdoor areas, integrated switching/firewall/VLAN design and supported optimization.",
+      "outcome": "Deployment planning evolved to approximately 49 APs with focus on coverage, capacity and operational reliability.",
+      "status": "Design & Delivery"
     },
     {
-      "name": "ANPR Camera Integration",
-      "category": "ELV / Security",
-      "summary": "Installed and configured ANPR cameras, integrated loop inputs, validated event triggering and completed system testing and documentation.",
-      "technologies": [
-        "ANPR",
-        "IP cameras",
-        "NVR/VMS",
-        "loop integration"
-      ]
-    },
-    {
-      "name": "Workshop Vehicle Tracking Concept",
-      "category": "IoT / Automation",
-      "summary": "Designed a BLE-based workshop vehicle tracking workflow covering reception, inspection, service, quality control, washing, ready and pickup stages with notification concepts.",
+      "id": "ble-tracking",
+      "name": "BLE Vehicle Workshop Tracking Solution",
+      "category": "IoT • Automation • Tracking",
+      "summary": "Designed a BLE-based vehicle movement tracking concept across an automotive workshop with operational and customer notification workflows.",
       "technologies": [
         "BLE",
-        "workflow automation",
-        "notifications",
-        "IoT"
-      ]
+        "Workflow Automation",
+        "WhatsApp",
+        "SMS",
+        "Mobile App",
+        "Email"
+      ],
+      "role": [
+        "Workflow design",
+        "Tracking concept",
+        "Notification architecture",
+        "Operational mapping"
+      ],
+      "challenge": "Make workshop vehicle status visible across multiple operational stages without relying on repeated manual checks.",
+      "solution": "Mapped BLE-tracked movement across Reception → Inspection → Service Bay → Quality Control → Washing → Ready → Pickup.",
+      "outcome": "Created a workflow concept linking physical movement to operational visibility and multi-channel notifications.",
+      "status": "Concept Design"
     },
     {
-      "name": "Xiaozhi + n8n AI Assistant",
-      "category": "AI / Automation / Home Lab",
-      "summary": "Built a self-hosted voice-assistant and automation lab on Raspberry Pi using Xiaozhi, n8n, an MCP bridge, Dockerized services, systemd, Telegram automation and webhooks.",
+      "id": "network-migration",
+      "name": "Enterprise Network Infrastructure Migration",
+      "category": "Networking • Data Center",
+      "summary": "Planned migration and replacement of more than 25 enterprise Huawei switches across core and access infrastructure.",
       "technologies": [
-        "Raspberry Pi",
-        "Docker",
-        "n8n",
-        "MCP",
-        "Telegram",
-        "webhooks",
-        "Linux"
-      ]
+        "Huawei Switching",
+        "Core / Access Architecture",
+        "Migration Planning",
+        "Data Center Racks"
+      ],
+      "role": [
+        "Existing infrastructure assessment",
+        "Switch migration planning",
+        "Core/access architecture",
+        "BOQ preparation",
+        "Presales engineering",
+        "Vendor coordination",
+        "Rack considerations",
+        "Technical proposal"
+      ],
+      "challenge": "Replace aging enterprise switching while protecting topology, rack, service and migration dependencies.",
+      "solution": "Structured the migration around current-state assessment, core/access mapping, BOQ development and coordinated implementation planning.",
+      "outcome": "Produced a migration-ready technical approach covering equipment, architecture and delivery considerations.",
+      "status": "Migration Planning"
     },
     {
-      "name": "Aryvik 3D TTS Avatar",
-      "category": "AI / 3D / TTS",
-      "summary": "Built a self-hosted 3D speaking-avatar prototype using a VRM renderer, TTS, browser-based speech input, WebSockets and facial blendshape animation.",
+      "id": "villa-fiber",
+      "name": "Multi-Villa Fiber & Network Infrastructure",
+      "category": "Fiber • Network Infrastructure",
+      "summary": "Designed an infrastructure concept and BOQ for approximately 30 villas, around 100 network/service points, 30 network racks and a centralized core network.",
       "technologies": [
-        "VRM",
-        "Three.js",
-        "TTS",
-        "WebSocket",
-        "Docker",
-        "Vite"
-      ]
+        "Fiber Backbone",
+        "Core Network",
+        "Structured Cabling",
+        "Network Racks",
+        "Pathway Planning"
+      ],
+      "role": [
+        "Network architecture",
+        "Fiber planning",
+        "Rack planning",
+        "BOQ preparation",
+        "Costing",
+        "Implementation methodology"
+      ],
+      "challenge": "The site had no existing fiber infrastructure or usable intermediate manholes.",
+      "solution": "Developed a new pathway and fiber concept with centralized core architecture and distributed rack planning.",
+      "outcome": "Created a practical infrastructure and costing framework for a greenfield multi-villa network.",
+      "status": "Infrastructure Design"
     },
     {
-      "name": "AMVERSE Watch NFC Lab",
-      "category": "Embedded / NFC",
-      "summary": "Experimented with NFC detection and controlled-lab tag workflows on an ESP32-S3 wearable platform using C++ and embedded development tooling.",
+      "id": "anpr",
+      "name": "ANPR Camera Deployment",
+      "category": "CCTV • ANPR",
+      "summary": "Delivered an ANPR implementation covering camera installation, network/IP configuration, loop integration, NVR integration and functional testing.",
       "technologies": [
-        "ESP32-S3",
-        "C++",
-        "NFC",
-        "embedded systems"
-      ]
+        "ANPR Cameras",
+        "IP Networking",
+        "Vehicle Detection Loops",
+        "NVR",
+        "Push Events"
+      ],
+      "role": [
+        "Camera installation",
+        "Network configuration",
+        "IP configuration",
+        "Loop integration",
+        "NVR integration",
+        "Push notification verification",
+        "Testing",
+        "Completion documentation"
+      ],
+      "challenge": "Make the camera, network and vehicle-detection loops operate as one reliable event workflow.",
+      "solution": "Integrated the camera, detection loops and recorder, validated event flow and completed testing/documentation.",
+      "outcome": "Delivered a completed field implementation with verified detection and recording workflow.",
+      "status": "Completed Deployment"
     },
     {
-      "name": "Raspberry Pi Home Lab / NAS",
-      "category": "Linux / Infrastructure",
-      "summary": "Runs a Raspberry Pi-based home lab with Docker services, storage, backups, remote access, media/photo services, automation tools and AI experiments.",
+      "id": "vlan",
+      "name": "Enterprise VLAN & Firewall Architecture",
+      "category": "Network Architecture",
+      "summary": "Worked with segmented enterprise networks using FortiGate firewall infrastructure across administrative, guest, CCTV, voice, storage and service domains.",
+      "technologies": [
+        "FortiGate",
+        "VLANs",
+        "Inter-VLAN Policy",
+        "LAN Segmentation",
+        "Routing"
+      ],
+      "role": [
+        "Segmentation design",
+        "VLAN planning",
+        "Policy consideration",
+        "Troubleshooting",
+        "Infrastructure coordination"
+      ],
+      "challenge": "Separate multiple departments and technology domains while keeping the environment manageable and secure.",
+      "solution": "Used VLAN segmentation and controlled inter-VLAN access to isolate traffic, improve management and simplify troubleshooting.",
+      "outcome": "Architecture supports security, traffic isolation, clearer troubleshooting and controlled communication between network zones.",
+      "status": "Architecture"
+    },
+    {
+      "id": "aryvik",
+      "name": "Aryvik – AI Voice Assistant & 3D Avatar",
+      "category": "AI • Linux • Docker • 3D • Automation",
+      "summary": "Personal AI assistant experiment combining browser voice interaction, neural text-to-speech and a real-time animated VRM avatar on self-hosted infrastructure.",
       "technologies": [
         "Raspberry Pi 5",
         "Linux",
         "Docker",
+        "Python",
+        "FastAPI / Uvicorn",
+        "Three.js",
+        "VRM",
+        "Azure TTS",
+        "WebSockets",
+        "Blendshapes",
+        "Web Speech API",
+        "Tailscale"
+      ],
+      "role": [
+        "Architecture",
+        "Linux hosting",
+        "Docker deployment",
+        "Frontend integration",
+        "TTS pipeline",
+        "WebSocket integration",
+        "Avatar rendering",
+        "Lip-sync troubleshooting"
+      ],
+      "challenge": "Synchronize speech, browser interaction and 3D facial animation on lightweight self-hosted hardware.",
+      "solution": "Built a Dockerized TTS/API service and a Three.js/VRM renderer connected by WebSockets and speech events.",
+      "outcome": "Working prototype with voice input, neural speech output, avatar mouth movement, facial expressions and remote access.",
+      "status": "Personal R&D"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n AI Automation Platform",
+      "category": "Automation • Docker • AI",
+      "summary": "Created and managed a self-hosted n8n automation environment on Raspberry Pi for bots, webhooks, API orchestration and AI workflow experiments.",
+      "technologies": [
+        "n8n",
+        "Docker",
+        "Docker Compose",
+        "Raspberry Pi",
+        "Linux",
+        "Telegram",
+        "Webhooks",
+        "Tailscale",
+        "AI Integrations"
+      ],
+      "role": [
+        "Self-hosting",
+        "Container deployment",
+        "Webhook configuration",
+        "Telegram integration",
+        "Remote access",
+        "Troubleshooting"
+      ],
+      "challenge": "Operate reliable automation workflows on a compact self-hosted platform with secure remote access.",
+      "solution": "Containerized the automation platform and integrated Telegram, webhooks and Tailscale-based access.",
+      "outcome": "Reusable personal automation platform supporting messaging, API and AI workflow experiments.",
+      "status": "Active Lab"
+    },
+    {
+      "id": "homelab",
+      "name": "Raspberry Pi Home Lab & Private Cloud",
+      "category": "Home Lab • Linux • Docker",
+      "summary": "Built a Raspberry Pi 5-based personal infrastructure lab for Linux, containers, storage, remote access, automation and AI experimentation.",
+      "technologies": [
+        "Raspberry Pi 5",
+        "Debian Linux",
+        "Docker",
+        "Docker Compose",
+        "SSD Storage",
         "NAS",
         "Tailscale",
-        "self-hosting"
-      ]
+        "Immich",
+        "n8n",
+        "Jitsi",
+        "AI Services"
+      ],
+      "role": [
+        "System administration",
+        "Storage design",
+        "Container operations",
+        "Remote access",
+        "Monitoring",
+        "Service troubleshooting"
+      ],
+      "challenge": "Combine multiple storage devices and services into a small, maintainable always-on lab.",
+      "solution": "Organized storage, Docker workloads, remote-access services and application stacks around a Linux-based home-lab platform.",
+      "outcome": "A practical environment for infrastructure testing, self-hosting, automation and continuous learning.",
+      "status": "Active Lab"
+    },
+    {
+      "id": "nfc",
+      "name": "AI / NFC Embedded Technology Lab",
+      "category": "Embedded Systems • IoT • R&D",
+      "summary": "Experimental embedded development and NFC testing on an ESP32-S3 wearable platform, positioned as a learning and R&D environment rather than production deployment.",
+      "technologies": [
+        "ESP32-S3",
+        "LILYGO T-Watch Ultra",
+        "NFC",
+        "C++",
+        "Embedded Firmware",
+        "Serial Debugging"
+      ],
+      "role": [
+        "Firmware experimentation",
+        "Hardware testing",
+        "Serial debugging",
+        "NFC protocol learning"
+      ],
+      "challenge": "Understand NFC behavior and embedded constraints on a compact wearable platform.",
+      "solution": "Iterated firmware builds, debugged hardware communication and tested controlled lab workflows.",
+      "outcome": "Hands-on embedded systems learning focused on debugging, protocol behavior and device integration.",
+      "status": "R&D / Learning"
+    },
+    {
+      "id": "signage",
+      "name": "Digital Display & Kiosk Infrastructure",
+      "category": "AV • Digital Signage",
+      "summary": "Experience supporting interactive kiosks, non-interactive kiosks, wall-mounted displays, digital signage infrastructure and related network/hardware coordination.",
+      "technologies": [
+        "Interactive Kiosks",
+        "Digital Displays",
+        "OptiSigns CMS",
+        "Networking",
+        "Supporting Hardware"
+      ],
+      "role": [
+        "Infrastructure support",
+        "Documentation",
+        "Spare planning",
+        "Network coordination",
+        "Technical delivery"
+      ],
+      "challenge": "Coordinate display hardware, network connectivity and operational support across multiple display formats.",
+      "solution": "Structured device, spare, connectivity and CMS considerations around deployment requirements.",
+      "outcome": "Supported maintainable digital display and kiosk infrastructure with clear technical documentation.",
+      "status": "Delivery Experience"
     }
   ],
   "contact": {
@@ -246,15 +491,53 @@
     "linkedin": "https://www.linkedin.com/in/amal-d-57421a130",
     "github": "https://github.com/amaldileep-tech"
   },
-  "suggested_questions": [
-    "Tell me about Amal",
-    "Show Amal’s experience",
-    "What are Amal’s networking skills?",
-    "What projects has Amal built?",
-    "Tell me about Linux & Docker",
-    "What AI work has Amal done?",
-    "What certifications is Amal working on?",
-    "How can I contact Amal?"
+  "faq": [
+    {
+      "questions": [
+        "who is amal",
+        "tell me about amal",
+        "about amal",
+        "profile"
+      ],
+      "answer": "Amal Dileep is a UAE-based Lead System Engineer working across enterprise networking, IT infrastructure, ELV, CCTV, AV, Linux, Docker, automation and project delivery."
+    },
+    {
+      "questions": [
+        "networking skills",
+        "huawei",
+        "aruba",
+        "fortigate",
+        "vlan",
+        "wifi"
+      ],
+      "answer": "Amal's networking experience includes Huawei switching, Aruba networking, FortiGate, VLAN architecture, routing and switching, enterprise Wi-Fi, migration planning and troubleshooting."
+    },
+    {
+      "questions": [
+        "projects",
+        "project experience",
+        "what has amal built"
+      ],
+      "answer": "Highlighted work includes enterprise CCTV/VMS design, warehouse Wi-Fi, network migration, multi-villa fiber, ANPR deployment, VLAN/firewall architecture, Aryvik AI, n8n automation and a Raspberry Pi home lab."
+    },
+    {
+      "questions": [
+        "presales",
+        "boq",
+        "proposal",
+        "tender"
+      ],
+      "answer": "Amal works across requirement analysis, site surveys, solution architecture, product selection, BOQs, costing, OEM/distributor coordination, technical proposals, tender support, scope definition and project methodology."
+    },
+    {
+      "questions": [
+        "contact",
+        "email",
+        "linkedin",
+        "github"
+      ],
+      "answer": "You can contact Amal at amaldileepofficial@gmail.com, connect on LinkedIn at linkedin.com/in/amal-d-57421a130, or view GitHub at github.com/amaldileep-tech."
+    }
   ],
-  "out_of_scope": "I’m Amal AI, a portfolio assistant. I can only answer questions about Amal Dileep’s professional experience, skills, projects, learning and contact information."
+  "out_of_scope_response": "I’m Amal AI, a portfolio assistant. I can only answer questions about Amal Dileep’s professional experience, skills, projects, learning and contact information."
 }
