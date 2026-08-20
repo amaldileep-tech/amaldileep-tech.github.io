@@ -154,6 +154,100 @@
 })();
 
 
+// ===== Custom cursor (desktop only) =====
+(() => {
+  if (!window.matchMedia('(pointer: fine)').matches) return;
+
+  const dot = document.createElement('div');
+  dot.className = 'cursor-dot';
+  const ring = document.createElement('div');
+  ring.className = 'cursor-ring';
+  document.body.append(dot, ring);
+  document.body.classList.add('custom-cursor');
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let x = innerWidth / 2, y = innerHeight / 2, rx = x, ry = y;
+  let active = false;
+
+  window.addEventListener('pointermove', e => {
+    x = e.clientX; y = e.clientY;
+    dot.style.transform = `translate3d(${x}px,${y}px,0)`;
+    if (!active) requestAnimationFrame(loop);
+  }, { passive: true });
+
+  function loop(){
+    if (reduceMotion) { rx = x; ry = y; }
+    else { rx += (x - rx) * 0.2; ry += (y - ry) * 0.2; }
+    ring.style.transform = `translate3d(${rx}px,${ry}px,0)`;
+    if (Math.abs(x - rx) > 0.1 || Math.abs(y - ry) > 0.1) {
+      requestAnimationFrame(loop);
+    } else {
+      active = false;
+    }
+  }
+
+  const hoverSelector = 'a, button, .projects article, .stack>div, .timeline article, [role="button"]';
+  const fieldSelector = 'input, textarea';
+
+  document.addEventListener('pointerover', e => {
+    if (e.target.closest && e.target.closest(hoverSelector)) ring.classList.add('is-active');
+    if (e.target.closest && e.target.closest(fieldSelector)) {
+      dot.classList.add('is-hidden');
+      ring.classList.add('is-hidden');
+    }
+  });
+  document.addEventListener('pointerout', e => {
+    if (e.target.closest && e.target.closest(hoverSelector)) ring.classList.remove('is-active');
+    if (e.target.closest && e.target.closest(fieldSelector)) {
+      dot.classList.remove('is-hidden');
+      ring.classList.remove('is-hidden');
+    }
+  });
+  window.addEventListener('pointerdown', () => ring.classList.add('is-down'));
+  window.addEventListener('pointerup', () => ring.classList.remove('is-down'));
+  document.addEventListener('mouseleave', () => { dot.classList.add('is-hidden'); ring.classList.add('is-hidden'); });
+  document.addEventListener('mouseenter', () => { dot.classList.remove('is-hidden'); ring.classList.remove('is-hidden'); });
+})();
+
+// ===== Terminal quote widget =====
+(() => {
+  const out = document.getElementById('terminalOutput');
+  if (!out) return;
+
+  const lines = [
+    { text: 'Talk is cheap. Show me the code.', by: 'Linus Torvalds' },
+    { text: 'Given enough eyeballs, all bugs are shallow.', by: "Linus's Law — Eric S. Raymond" },
+    { text: 'Uptime is a feature. Documentation is a promise.', by: 'amal.log' }
+  ];
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let i = 0;
+  let typingTimer = null;
+
+  function renderLine(line){
+    const full = `"${line.text}" — ${line.by}`;
+    if (reduceMotion) { out.textContent = full; return; }
+
+    clearTimeout(typingTimer);
+    out.textContent = '';
+    let idx = 0;
+    (function type(){
+      out.textContent = full.slice(0, idx);
+      idx++;
+      if (idx <= full.length) typingTimer = setTimeout(type, 18);
+    })();
+  }
+
+  function cycle(){
+    renderLine(lines[i]);
+    i = (i + 1) % lines.length;
+  }
+
+  cycle();
+  setInterval(cycle, 6500);
+})();
+
+
 // ===== Amal AI V12 — natural conversational portfolio assistant =====
 (() => {
   const root = document.getElementById('amalAI');
