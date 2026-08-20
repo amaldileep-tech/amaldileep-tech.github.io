@@ -100,6 +100,60 @@
 
 
 
+// ===== Mobile navigation =====
+(() => {
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('mobileNav');
+  if (!toggle || !nav) return;
+
+  function setOpen(open){
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    nav.classList.toggle('is-open', open);
+    nav.setAttribute('aria-hidden', String(!open));
+    document.body.classList.toggle('nav-locked', open);
+  }
+
+  toggle.addEventListener('click', () => {
+    setOpen(!nav.classList.contains('is-open'));
+  });
+
+  nav.querySelectorAll('[data-nav-link]').forEach(link => {
+    link.addEventListener('click', () => setOpen(false));
+  });
+
+  window.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && nav.classList.contains('is-open')) setOpen(false);
+  });
+
+  window.addEventListener('resize', () => {
+    if (innerWidth > 780 && nav.classList.contains('is-open')) setOpen(false);
+  });
+})();
+
+// ===== Scroll reveal =====
+(() => {
+  const targets = document.querySelectorAll('.reveal');
+  if (!targets.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    targets.forEach(el => el.classList.add('is-visible'));
+    return;
+  }
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+
+  targets.forEach(el => io.observe(el));
+})();
+
+
 // ===== Amal AI V12 — natural conversational portfolio assistant =====
 (() => {
   const root = document.getElementById('amalAI');
